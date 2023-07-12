@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Getting Started with Teacher Audit Portal Frontend documentation! &mdash; lnp-docu 2.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            lnp-docu
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Getting Started with Teacher Audit Portal Frontend documentation!</a><ul>
+<li><a class="reference internal" href="#clone-repository">Clone Repository</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#serving-the-documentation">Serving the Documentation</a></li>
+<li><a class="reference internal" href="#credential-dependencies">Credential Dependencies</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">lnp-docu</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Getting Started with Teacher Audit Portal Frontend documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="getting-started-with-teacher-audit-portal-frontend-documentation">
+<h1>Getting Started with Teacher Audit Portal Frontend documentation!<a class="headerlink" href="#getting-started-with-teacher-audit-portal-frontend-documentation" title="Permalink to this heading"></a></h1>
+<section id="clone-repository">
+<h2>Clone Repository<a class="headerlink" href="#clone-repository" title="Permalink to this heading"></a></h2>
+<p>To clone Teacher Audit Portal frontend Project, run the following command from the command line:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/AssessEd/lnp-live-class-frontend.git
+</pre></div>
+</div>
+<div class="line-block">
+<div class="line">The latest prod branch is <code class="docutils literal notranslate"><span class="pre">dashboard2_demo_2</span></code>,</div>
+<div class="line">while the latest branch dev branch is <code class="docutils literal notranslate"><span class="pre">liveclass_dev</span></code>.</div>
+<div class="line">Also this repo hosts the GPT Audit Portal on the <code class="docutils literal notranslate"><span class="pre">poc/gpt-audit</span></code> branch.</div>
+</div>
+</section>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<p>To install the packages , use the following command :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>npm<span class="w"> </span>i
+</pre></div>
+</div>
+<p>OR if the above command gives dependency mismatch run the following command</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>npm<span class="w"> </span>i<span class="w"> </span>-force
+</pre></div>
+</div>
+<p>The project has been tested and works well with Node version <code class="docutils literal notranslate"><span class="pre">v16.x.x</span></code> and above.</p>
+</section>
+<section id="serving-the-documentation">
+<h2>Serving the Documentation<a class="headerlink" href="#serving-the-documentation" title="Permalink to this heading"></a></h2>
+<p>To run the project, use the following command :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>npm<span class="w"> </span>run<span class="w"> </span>start
+</pre></div>
+</div>
+<p>which, being a react project, by default runs on port <code class="docutils literal notranslate"><span class="pre">3000</span></code>, so the frontend server should now be accessible at <code class="docutils literal notranslate"><span class="pre">http://localhost:3000/</span></code></p>
+</section>
+<section id="credential-dependencies">
+<h2>Credential Dependencies<a class="headerlink" href="#credential-dependencies" title="Permalink to this heading"></a></h2>
+<ul>
+<li><dl>
+<dt>Git Branches :</dt><dd><div class="line-block">
+<div class="line">Prod : <code class="docutils literal notranslate"><span class="pre">dashboard2_demo_2</span></code> ( port : <code class="docutils literal notranslate"><span class="pre">3001</span></code> )</div>
+<div class="line">Dev : <code class="docutils literal notranslate"><span class="pre">liveclass_dev</span></code> ( port : <code class="docutils literal notranslate"><span class="pre">3002</span></code>)</div>
+<div class="line">GPT Audit Portal : <code class="docutils literal notranslate"><span class="pre">poc/gpt-audit</span></code> ( port : <code class="docutils literal notranslate"><span class="pre">3002</span></code> , different path)</div>
+</div>
+<div class="line-block">
+<div class="line"><cite>Note : Port have been set in .env file</cite></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><p>Deployment Process</p>
+<blockquote>
+<div><p>For the deployement on the Prod environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>ssh<span class="w"> </span>-i<span class="w"> </span>liveclassFEMachine.pem<span class="w"> </span>ubuntu@52.6.96.45
+<span class="nb">cd</span><span class="w"> </span>jeeva
+</pre></div>
+</div>
+<p>For the deployement on the Dev environment :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>ssh<span class="w"> </span>-i<span class="w"> </span>liveclassdev.pem<span class="w"> </span>ubuntu@13.127.87.134
+<span class="nb">cd</span><span class="w"> </span>liveclassdevFE
+</pre></div>
+</div>
+<p>For the deployement of the GPT Audit Portal :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>ssh<span class="w"> </span>-i<span class="w"> </span>liveclassdev.pem<span class="w"> </span>ubuntu@13.127.87.134
+<span class="nb">cd</span><span class="w"> </span>gpt-audit-portal
+</pre></div>
+</div>
+<p>The above mentioned frontend servers have been deployed as <code class="docutils literal notranslate"><span class="pre">pm2</span></code> instances. Following are the commands of <code class="docutils literal notranslate"><span class="pre">pm2</span></code> to run frontend servers as its instances.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>npm<span class="w"> </span>install<span class="w"> </span>pm2@latest<span class="w"> </span>-g<span class="w">  </span><span class="o">[</span><span class="w"> </span>only<span class="w"> </span>once<span class="w"> </span><span class="k">for</span><span class="w"> </span>pm2<span class="w"> </span>installation<span class="o">]</span>
+pm2<span class="w"> </span>start<span class="w"> </span>npm<span class="w"> </span>--name<span class="w"> </span>“live<span class="w"> </span>class”<span class="w"> </span>--<span class="w"> </span>start
+</pre></div>
+</div>
+<p>To manage the <code class="docutils literal notranslate"><span class="pre">pm2</span></code> instances following commands can be used :</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pm2<span class="w"> </span>ls
+pm2<span class="w"> </span>stop<span class="w"> </span>&lt;pm2_instance_id&gt;
+pm2<span class="w"> </span>delete<span class="w"> </span>&lt;pm2_instance_id&gt;
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><dl>
+<dt>URLs :</dt><dd><div class="line-block">
+<div class="line">Dev : <code class="docutils literal notranslate"><span class="pre">http://13.127.87.134:3002/videos</span></code></div>
+<div class="line">Prod : <code class="docutils literal notranslate"><span class="pre">https://teacher-audit.byjusweb.com/videos</span></code>  <code class="docutils literal notranslate"><span class="pre">[http://52.6.96.45:3000/videos]</span></code></div>
+<div class="line">GPT Audit Portal : <code class="docutils literal notranslate"><span class="pre">http://13.127.87.134:3002/gpt-video-audits</span></code></div>
+</div>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+</section>
+<hr class="docutils" />
+<section id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this heading"></a></h1>
+<p>The Tecaher Audit Portal frontend is a GUI using which the auditors can easily analyse the classroom videos of teachers coming from
+various sources like WHJ, Neo, BTC, etc. Not only does it provide a platform for the auditors to manually analyse the video,
+but also submit their feedbacks on a certain set of questions and can also add remarks to those answered questions.</p>
+<p>Along with providing the auditors with the above mentioned functionality, the portal also presents the Audit data for each video
+coming from the ML Analysis for the various parameters which correspond to above mentioned question set.</p>
+<p>The dashboard also shows the video player with the actual video being audited and a interactive chart with the graph data of
+various parameters from ML analysis over the length of the video. The graph lines can be clicked at any point, which takes the
+user to that point in video where that analysis was captured.</p>
+<p>The intial page of the portal presents a list of all the videos which have either been audited or are ready to audited by the
+manual auditors. For each video in the list there are certain preview icon linked to the ML analysis parameters for that video,
+which gives the user an idea of what to expect from the audit report of the particular video.</p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Nitin.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
